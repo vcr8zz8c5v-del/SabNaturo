@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Masterclass et retraites spirituelles avec Sabri Manoubi. Yoga, méditation et bien-être.">
+    <title>Masterclass & Retraites | Sabri Manoubi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo"><span>🌿</span><span>Naturopraticien</span></a>
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav__link">Accueil</a>
+                <a href="about.html" class="nav__link">Qui suis-je</a>
+                <div class="nav__dropdown">
+                    <a href="#" class="nav__link nav__link--dropdown">Services ▾</a>
+                    <div class="nav__dropdown-menu">
+                        <a href="services/naturopathie.html" class="nav__dropdown-item">Naturopathie</a>
+                        <a href="services/massages.html" class="nav__dropdown-item">Massages & Réflexologie</a>
+                        <a href="services/yoga-pilates.html" class="nav__dropdown-item">Yoga & Pilates</a>
+                        <a href="services/sophro-relaxation.html" class="nav__dropdown-item">Sophro-relaxation</a>
+                    </div>
+                </div>
+                <a href="tarifs.html" class="nav__link">Tarifs</a>
+                <a href="masterclass-retraites.html" class="nav__link nav__link--active">Masterclass</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+                <a href="contact.html#rdv" class="btn btn--primary">Prendre RDV</a>
+            </nav>
+            <button class="nav__toggle" id="navToggle"
+                aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <section class="service-hero">
+        <div class="container">
+            <span class="section-header__tag" style="color: var(--color-primary-light);">Événements</span>
+            <h1 class="service-hero__title">Masterclass & Retraites</h1>
+            <p>Approfondissez votre pratique lors de nos ateliers et séjours bien-être</p>
+        </div>
+    </section>
+
+    <!-- Masterclass Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__tag">Ateliers</span>
+                <h2 class="section-header__title">Prochaines Masterclass</h2>
+            </div>
+
+            <!-- MASTERCLASS: Modifiez les informations ci-dessous pour mettre à jour vos événements -->
+            <div class="masterclass-grid">
+                <!-- Masterclass 1 -->
+                <article class="masterclass-card">
+                    <div class="masterclass-card__image">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80"
+                            alt="Masterclass Nutrition">
+                    </div>
+                    <div class="masterclass-card__content">
+                        <span class="masterclass-card__tag">En ligne</span>
+                        <h3 class="masterclass-card__title">Nutrition Holistique</h3>
+                        <div class="masterclass-card__meta">
+                            <span>📅 22 Février 2026</span>
+                            <span>⏱️ 3h</span>
+                        </div>
+                        <p>Découvrez les bases de l'alimentation santé et apprenez à composer des repas équilibrés.</p>
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-4);">
+                            <span class="masterclass-card__price">49€</span>
+                            <a href="contact.html" class="btn btn--primary btn--sm">S'inscrire</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Masterclass 2 -->
+                <article class="masterclass-card">
+                    <div class="masterclass-card__image">
+                        <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&q=80"
+                            alt="Atelier Detox">
+                    </div>
+                    <div class="masterclass-card__content">
+                        <span class="masterclass-card__tag">Présentiel</span>
+                        <h3 class="masterclass-card__title">Atelier Detox Printemps</h3>
+                        <div class="masterclass-card__meta">
+                            <span>📅 8 Mars 2026</span>
+                            <span>📍 Paris</span>
+                        </div>
+                        <p>Préparez votre corps au changement de saison avec des techniques de détoxification naturelle.
+                        </p>
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-4);">
+                            <span class="masterclass-card__price">79€</span>
+                            <a href="contact.html" class="btn btn--primary btn--sm">S'inscrire</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Masterclass 3 -->
+                <article class="masterclass-card">
+                    <div class="masterclass-card__image">
+                        <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&q=80"
+                            alt="Gestion Stress">
+                    </div>
+                    <div class="masterclass-card__content">
+                        <span class="masterclass-card__tag">En ligne</span>
+                        <h3 class="masterclass-card__title">Gestion du Stress Naturelle</h3>
+                        <div class="masterclass-card__meta">
+                            <span>📅 12 Avril 2026</span>
+                            <span>⏱️ 2h30</span>
+                        </div>
+                        <p>Techniques de respiration, plantes adaptogènes et routines anti-stress.</p>
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-4);">
+                            <span class="masterclass-card__price">39€</span>
+                            <a href="contact.html" class="btn btn--primary btn--sm">S'inscrire</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Masterclass 4 -->
+                <article class="masterclass-card">
+                    <div class="masterclass-card__image">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80"
+                            alt="Yoga Workshop">
+                    </div>
+                    <div class="masterclass-card__content">
+                        <span class="masterclass-card__tag">Présentiel</span>
+                        <h3 class="masterclass-card__title">Workshop Yoga Avancé</h3>
+                        <div class="masterclass-card__meta">
+                            <span>📅 25 Avril 2026</span>
+                            <span>📍 Paris</span>
+                        </div>
+                        <p>Approfondir sa pratique avec les inversions et postures avancées.</p>
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-top: var(--space-4);">
+                            <span class="masterclass-card__price">89€</span>
+                            <a href="contact.html" class="btn btn--primary btn--sm">S'inscrire</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- FIN MASTERCLASS -->
+        </div>
+    </section>
+
+    <!-- Retraites Section -->
+    <section class="section" style="background: var(--color-background-alt);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-header__tag">Séjours</span>
+                <h2 class="section-header__title">Retraites Spirituelles</h2>
+            </div>
+
+            <!-- RETRAITES: Modifiez les informations ci-dessous pour mettre à jour vos retraites -->
+            <!-- Retraite 1 -->
+            <div class="retreat-featured">
+                <div class="retreat-featured__image">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80"
+                        alt="Retraite Provence">
+                </div>
+                <div class="retreat-featured__content">
+                    <span class="masterclass-card__tag">3 jours</span>
+                    <h3 style="font-size: var(--text-3xl); margin: var(--space-4) 0;">Retraite Yoga & Méditation</h3>
+                    <div class="masterclass-card__meta">
+                        <span>📅 15-17 Mars 2026</span>
+                        <span>📍 Provence</span>
+                    </div>
+                    <p style="margin: var(--space-4) 0;">
+                        Un week-end de déconnexion totale au cœur de la nature provençale.
+                        Yoga matin et soir, méditation, ateliers naturopathie et cuisine végétale.
+                    </p>
+                    <ul style="margin: var(--space-4) 0; color: var(--color-text-light);">
+                        <li>✓ Hébergement en chambre double</li>
+                        <li>✓ Repas bio et végétariens inclus</li>
+                        <li>✓ 6 séances de yoga & méditation</li>
+                        <li>✓ Atelier cuisine + randonnée</li>
+                    </ul>
+                    <div style="display: flex; align-items: center; gap: var(--space-6); margin-top: var(--space-6);">
+                        <span
+                            style="font-size: var(--text-3xl); font-weight: bold; color: var(--color-primary);">590€</span>
+                        <a href="contact.html" class="btn btn--primary btn--lg">Réserver ma place</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Retraite 2 -->
+            <div style="margin-top: var(--space-12);">
+                <div class="retreat-featured">
+                    <div class="retreat-featured__image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+                            alt="Retraite Océan">
+                    </div>
+                    <div class="retreat-featured__content">
+                        <span class="masterclass-card__tag">5 jours</span>
+                        <h3 style="font-size: var(--text-3xl); margin: var(--space-4) 0;">Retraite Régénération</h3>
+                        <div class="masterclass-card__meta">
+                            <span>📅 10-14 Juin 2026</span>
+                            <span>📍 Côte Basque</span>
+                        </div>
+                        <p style="margin: var(--space-4) 0;">
+                            Une immersion complète pour se ressourcer. Yoga, surf, naturopathie et
+                            développement personnel face à l'océan.
+                        </p>
+                        <ul style="margin: var(--space-4) 0; color: var(--color-text-light);">
+                            <li>✓ Hébergement tout confort</li>
+                            <li>✓ Pension complète bio</li>
+                            <li>✓ Initiation surf incluse</li>
+                            <li>✓ Consultation naturo individuelle</li>
+                        </ul>
+                        <div
+                            style="display: flex; align-items: center; gap: var(--space-6); margin-top: var(--space-6);">
+                            <span
+                                style="font-size: var(--text-3xl); font-weight: bold; color: var(--color-primary);">990€</span>
+                            <a href="contact.html" class="btn btn--primary btn--lg">Réserver ma place</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN RETRAITES -->
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-section__title">Une question sur un événement ?</h2>
+            <p class="cta-section__description">Contactez-moi pour plus d'informations.</p>
+            <a href="contact.html" class="btn btn--lg">Me contacter</a>
+        </div>
+    </section>
+
+    <!-- Footer complet -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <div class="footer__logo">🌿 Naturopraticien</div>
+                    <p class="footer__description">
+                        Praticien naturopathe, masseur et professeur de yoga pilates.
+                        Accompagnement holistique pour votre bien-être naturel.
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://instagram.com/" target="_blank" rel="noopener" class="footer__social-link"
+                            aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="https://tiktok.com/" target="_blank" rel="noopener" class="footer__social-link"
+                            aria-label="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+                            </svg>
+                        </a>
+                        <a href="https://youtube.com/" target="_blank" rel="noopener" class="footer__social-link"
+                            aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com/" target="_blank" rel="noopener" class="footer__social-link"
+                            aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer__title">Navigation</h4>
+                    <div class="footer__links">
+                        <a href="index.html" class="footer__link">Accueil</a>
+                        <a href="about.html" class="footer__link">Qui suis-je</a>
+                        <a href="tarifs.html" class="footer__link">Tarifs</a>
+                        <a href="contact.html" class="footer__link">Contact</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer__title">Services</h4>
+                    <div class="footer__links">
+                        <a href="services/naturopathie.html" class="footer__link">Naturopathie</a>
+                        <a href="services/massages.html" class="footer__link">Massages</a>
+                        <a href="services/yoga-pilates.html" class="footer__link">Yoga & Pilates</a>
+                        <a href="services/sophro-relaxation.html" class="footer__link">Sophro-relaxation</a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer__title">Contact</h4>
+                    <div class="footer__links">
+                        <span class="footer__link">📍 Paris, France</span>
+                        <a href="tel:+33600000000" class="footer__link">📞 06 00 00 00 00</a>
+                        <a href="mailto:contact@naturopraticien.com" class="footer__link">✉️
+                            contact@naturopraticien.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2026 Sabri Manoubi. Tous droits réservés.</p>
+                <div class="footer__legal">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+{
+    "videos": [
+        {
+            "id": "1",
+            "platform": "instagram",
+            "title": "Routine Yoga du Matin ☀️",
+            "url": "https://www.instagram.com/reel/EXAMPLE1",
+            "thumbnail": "assets/images/video-thumb-1.jpg",
+            "date": "2026-02-01"
+        },
+        {
+            "id": "2",
+            "platform": "tiktok",
+            "title": "3 Conseils Detox 🌿",
+            "url": "https://www.tiktok.com/@user/video/EXAMPLE2",
+            "thumbnail": "assets/images/video-thumb-2.jpg",
+            "date": "2026-01-28"
+        },
+        {
+            "id": "3",
+            "platform": "youtube",
+            "title": "Méditation Guidée 10min",
+            "url": "https://www.youtube.com/watch?v=EXAMPLE3",
+            "thumbnail": "assets/images/video-thumb-3.jpg",
+            "date": "2026-01-25"
+        },
+        {
+            "id": "4",
+            "platform": "facebook",
+            "title": "Live : Réponses à vos Questions",
+            "url": "https://www.facebook.com/watch/?v=EXAMPLE4",
+            "thumbnail": "assets/images/video-thumb-4.jpg",
+            "date": "2026-01-20"
+        },
+        {
+            "id": "5",
+            "platform": "instagram",
+            "title": "Smoothie Énergisant 🥤",
+            "url": "https://www.instagram.com/reel/EXAMPLE5",
+            "thumbnail": "assets/images/video-thumb-5.jpg",
+            "date": "2026-01-15"
+        },
+        {
+            "id": "6",
+            "platform": "tiktok",
+            "title": "Étirements Bureau 💼",
+            "url": "https://www.tiktok.com/@user/video/EXAMPLE6",
+            "thumbnail": "assets/images/video-thumb-6.jpg",
+            "date": "2026-01-10"
+        },
+        {
+            "id": "7",
+            "platform": "youtube",
+            "title": "Pilates Débutant 20min",
+            "url": "https://www.youtube.com/watch?v=EXAMPLE7",
+            "thumbnail": "assets/images/video-thumb-7.jpg",
+            "date": "2026-01-05"
+        },
+        {
+            "id": "8",
+            "platform": "instagram",
+            "title": "Respiration Anti-Stress 🧘",
+            "url": "https://www.instagram.com/reel/EXAMPLE8",
+            "thumbnail": "assets/images/video-thumb-8.jpg",
+            "date": "2026-01-01"
+        }
+    ],
+    "settings": {
+        "maxDisplay": 8,
+        "autoRefresh": false
+    }
+}
