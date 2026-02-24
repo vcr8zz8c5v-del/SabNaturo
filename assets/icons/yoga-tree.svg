@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Bras levés formant un V, mains jointes -->
+  <path d="M42 18 L50 8 L58 18"/>
+  <path d="M46 12 C48 6, 52 6, 54 12"/>
+
+  <!-- Tête -->
+  <circle cx="50" cy="24" r="6"/>
+
+  <!-- Corps -->
+  <path d="M50 30 L50 62"/>
+
+  <!-- Jambe gauche (appui) -->
+  <path d="M50 62 L42 88"/>
+  <path d="M42 88 L38 90"/>
+
+  <!-- Pied droit replié contre jambe (posture arbre) -->
+  <path d="M50 52 L62 46"/>
+  <path d="M62 46 L62 54"/>
+</svg>

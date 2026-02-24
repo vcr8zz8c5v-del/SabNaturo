@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Pétale central -->
+  <path d="M50 10 C44 25, 42 40, 44 52 L50 55 L56 52 C58 40, 56 25, 50 10 Z"/>
+
+  <!-- Pétale gauche intérieur -->
+  <path d="M36 18 C28 32, 28 46, 34 55 L40 54 C38 42, 36 30, 36 18 Z"/>
+
+  <!-- Pétale droit intérieur -->
+  <path d="M64 18 C72 32, 72 46, 66 55 L60 54 C62 42, 64 30, 64 18 Z"/>
+
+  <!-- Pétale gauche extérieur -->
+  <path d="M22 30 C14 42, 14 54, 22 60 L30 56 C26 48, 24 38, 22 30 Z"/>
+
+  <!-- Pétale droit extérieur -->
+  <path d="M78 30 C86 42, 86 54, 78 60 L70 56 C74 48, 76 38, 78 30 Z"/>
+
+  <!-- Base calice -->
+  <path d="M22 60 C32 68, 42 70, 50 70 C58 70, 68 68, 78 60"/>
+
+  <!-- Tige -->
+  <path d="M50 70 L50 90"/>
+
+  <!-- Feuilles base -->
+  <path d="M50 82 C44 78, 38 80, 36 84"/>
+  <path d="M50 82 C56 78, 62 80, 64 84"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Main gauche avec doigts -->
+  <path d="M15 55 C15 40, 22 30, 30 25"/>
+  <path d="M22 25 L20 12"/>
+  <path d="M26 23 L25 8"/>
+  <path d="M30 22 L30 7"/>
+  <path d="M34 23 L35 10"/>
+  <path d="M15 55 C15 62, 20 68, 28 72"/>
+
+  <!-- Main droite avec doigts -->
+  <path d="M85 55 C85 40, 78 30, 70 25"/>
+  <path d="M78 25 L80 12"/>
+  <path d="M74 23 L75 8"/>
+  <path d="M70 22 L70 7"/>
+  <path d="M66 23 L65 10"/>
+  <path d="M85 55 C85 62, 80 68, 72 72"/>
+
+  <!-- Pétale lotus gauche -->
+  <path d="M38 68 C36 58, 40 48, 46 44 C48 50, 48 60, 44 68 Z"/>
+  <!-- Pétale lotus central -->
+  <path d="M46 42 C48 36, 50 30, 50 30 C50 30, 52 36, 54 42 C54 52, 52 62, 50 68 C48 62, 46 52, 46 42 Z"/>
+  <!-- Pétale lotus droit -->
+  <path d="M62 68 C64 58, 60 48, 54 44 C52 50, 52 60, 56 68 Z"/>
+</svg>
